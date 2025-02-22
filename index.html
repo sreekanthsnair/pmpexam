@@ -3,415 +3,375 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>50 Hardest PMP Exam Questions</title>
+    <title>PMP Exam Quiz (Beginner to Super Hard)</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
-        .question { margin-bottom: 15px; }
+        .question { margin-bottom: 15px; border: 1px solid #ccc; padding: 10px; }
+        .difficulty { font-weight: bold; color: #333; }
+        .hint { font-style: italic; color: #666; }
         .result { margin-top: 20px; font-weight: bold; }
         button { padding: 10px 20px; }
     </style>
 </head>
 <body>
-    <h1>50 Hardest PMP Exam Questions (MCQ)</h1>
+    <h1>PMP Exam Quiz: 50 Questions (Beginner to Super Hard)</h1>
     <form id="pmpQuiz" onsubmit="validateAnswers(event)">
+        <!-- Beginner Level (12 Questions) -->
         <div class="question">
-            <p><strong>Q1: Risk Management</strong><br>One risk has a 30% chance of a $40,000 loss, another 70% chance of a $15,000 loss. How should you prioritize?</p>
-            <input type="radio" name="q1" value="a"> a) By impact only<br>
-            <input type="radio" name="q1" value="b"> b) By probability only<br>
-            <input type="radio" name="q1" value="c"> c) By Expected Monetary Value (EMV)<br>
-            <input type="radio" name="q1" value="d"> d) By stakeholder preference<br>
+            <p><strong class="difficulty">Q1 (Beginner): Project Basics</strong><br>What is a project?<br><span class="hint">Hint: Temporary effort. Abbr: PM = Project Management.</span></p>
+            <input type="radio" name="q1" value="a"> a) Ongoing operation<br>
+            <input type="radio" name="q1" value="b"> b) Temporary endeavor with a unique result<br>
+            <input type="radio" name="q1" value="c"> c) Team meeting<br>
+            <input type="radio" name="q1" value="d"> d) Budget plan<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q2 (Beginner): Roles</strong><br>Who leads the project?<br><span class="hint">Hint: Manages team. Abbr: PM = Project Manager.</span></p>
+            <input type="radio" name="q2" value="a"> a) Sponsor<br>
+            <input type="radio" name="q2" value="b"> b) Project Manager<br>
+            <input type="radio" name="q2" value="c"> c) Customer<br>
+            <input type="radio" name="q2" value="d"> d) Team member<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q3 (Beginner): Process Groups</strong><br>How many process groups in PMP?<br><span class="hint">Hint: Phases of PM.</span></p>
+            <input type="radio" name="q3" value="a"> a) 3<br>
+            <input type="radio" name="q3" value="b"> b) 4<br>
+            <input type="radio" name="q3" value="c"> c) 5<br>
+            <input type="radio" name="q3" value="d"> d) 6<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q4 (Beginner): Charter</strong><br>What authorizes a project?<br><span class="hint">Hint: Formal start.</span></p>
+            <input type="radio" name="q4" value="a"> a) Budget<br>
+            <input type="radio" name="q4" value="b"> b) Project Charter<br>
+            <input type="radio" name="q4" value="c"> c) Scope statement<br>
+            <input type="radio" name="q4" value="d"> d) Schedule<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q5 (Beginner): Stakeholders</strong><br>Who are stakeholders?<br><span class="hint">Hint: Affected parties.</span></p>
+            <input type="radio" name="q5" value="a"> a) Only team<br>
+            <input type="radio" name="q5" value="b"> b) Anyone impacted<br>
+            <input type="radio" name="q5" value="c"> c) Only sponsor<br>
+            <input type="radio" name="q5" value="d"> d) Only customer<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q6 (Beginner): Scope</strong><br>What defines deliverables?<br><span class="hint">Hint: Work included.</span></p>
+            <input type="radio" name="q6" value="a"> a) Budget<br>
+            <input type="radio" name="q6" value="b"> b) Schedule<br>
+            <input type="radio" name="q6" value="c"> c) Project Scope<br>
+            <input type="radio" name="q6" value="d"> d) Risk plan<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q7 (Beginner): Agile</strong><br>What’s agile’s focus?<br><span class="hint">Hint: Customer value.</span></p>
+            <input type="radio" name="q7" value="a"> a) Detailed plans<br>
+            <input type="radio" name="q7" value="b"> b) Working product<br>
+            <input type="radio" name="q7" value="c"> c) Fixed scope<br>
+            <input type="radio" name="q7" value="d"> d) Long timelines<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q8 (Beginner): Schedule</strong><br>What’s a Gantt chart?<br><span class="hint">Hint: Timeline view.</span></p>
+            <input type="radio" name="q8" value="a"> a) Cost breakdown<br>
+            <input type="radio" name="q8" value="b"> b) Task timeline<br>
+            <input type="radio" name="q8" value="c"> c) Risk list<br>
+            <input type="radio" name="q8" value="d"> d) Team roster<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q9 (Beginner): Cost</strong><br>What’s a budget?<br><span class="hint">Hint: Planned funds.</span></p>
+            <input type="radio" name="q9" value="a"> a) Actual costs<br>
+            <input type="radio" name="q9" value="b"> b) Planned cost baseline<br>
+            <input type="radio" name="q9" value="c"> c) Revenue<br>
+            <input type="radio" name="q9" value="d"> d) Profit<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q10 (Beginner): Risk</strong><br>What’s a risk?<br><span class="hint">Hint: Uncertainty.</span></p>
+            <input type="radio" name="q10" value="a"> a) Sure event<br>
+            <input type="radio" name="q10" value="b"> b) Uncertain event<br>
+            <input type="radio" name="q10" value="c"> c) Team conflict<br>
+            <input type="radio" name="q10" value="d"> d) Budget overrun<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q11 (Beginner): Quality</strong><br>What’s quality?<br><span class="hint">Hint: Meeting needs.</span></p>
+            <input type="radio" name="q11" value="a"> a) Extra features<br>
+            <input type="radio" name="q11" value="b"> b) Meeting requirements<br>
+            <input type="radio" name="q11" value="c"> c) High cost<br>
+            <input type="radio" name="q11" value="d"> d) Speed<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q12 (Beginner): Communication</strong><br>What’s a communication plan?<br><span class="hint">Hint: Info flow.</span></p>
+            <input type="radio" name="q12" value="a"> a) Task list<br>
+            <input type="radio" name="q12" value="b"> b) Info distribution<br>
+            <input type="radio" name="q12" value="c"> c) Risk plan<br>
+            <input type="radio" name="q12" value="d"> d) Budget track<br>
         </div>
 
+        <!-- Intermediate Level (13 Questions) -->
         <div class="question">
-            <p><strong>Q2: Earned Value Management</strong><br>BAC = $500,000, PV = $200,000, EV = $180,000, AC = $220,000. What’s the EAC if future work proceeds at the budgeted rate?</p>
-            <input type="radio" name="q2" value="a"> a) $540,000<br>
-            <input type="radio" name="q2" value="b"> b) $500,000<br>
-            <input type="radio" name="q2" value="c"> c) $520,000<br>
-            <input type="radio" name="q2" value="d"> d) $560,000<br>
+            <p><strong class="difficulty">Q13 (Intermediate): Stakeholder</strong><br>Stakeholder requests scope change. Best action?<br><span class="hint">Hint: Process-driven. Abbr: CCB = Change Control Board.</span></p>
+            <input type="radio" name="q13" value="a"> a) Approve it<br>
+            <input type="radio" name="q13" value="b"> b) Reject it<br>
+            <input type="radio" name="q13" value="c"> c) Submit to CCB<br>
+            <input type="radio" name="q13" value="d"> d) Implement quietly<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q14 (Intermediate): Agile</strong><br>What’s a sprint?<br><span class="hint">Hint: Timeboxed. Abbr: Scrum = Agile framework.</span></p>
+            <input type="radio" name="q14" value="a"> a) Full project<br>
+            <input type="radio" name="q14" value="b"> b) Short iteration<br>
+            <input type="radio" name="q14" value="c"> c) Planning phase<br>
+            <input type="radio" name="q14" value="d"> d) Risk review<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q15 (Intermediate): EVM</strong><br>EV = $50K, AC = $60K. CV?<br><span class="hint">Hint: EV - AC. Abbr: EV = Earned Value, AC = Actual Cost, CV = Cost Variance.</span></p>
+            <input type="radio" name="q15" value="a"> a) $10K<br>
+            <input type="radio" name="q15" value="b"> b) -$10K<br>
+            <input type="radio" name="q15" value="c"> c) $50K<br>
+            <input type="radio" name="q15" value="d"> d) -$60K<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q16 (Intermediate): Schedule</strong><br>Total float is zero where?<br><span class="hint">Hint: No delay. Abbr: CPM = Critical Path Method.</span></p>
+            <input type="radio" name="q16" value="a"> a) Non-critical path<br>
+            <input type="radio" name="q16" value="b"> b) Critical path<br>
+            <input type="radio" name="q16" value="c"> c) All tasks<br>
+            <input type="radio" name="q16" value="d"> d) Slack tasks<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q17 (Intermediate): Risk</strong><br>Contingency reserves for?<br><span class="hint">Hint: Known risks.</span></p>
+            <input type="radio" name="q17" value="a"> a) Known unknowns<br>
+            <input type="radio" name="q17" value="b"> b) Unknown unknowns<br>
+            <input type="radio" name="q17" value="c"> c) Scope creep<br>
+            <input type="radio" name="q17" value="d"> d) Gold plating<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q18 (Intermediate): Quality</strong><br>Inspections belong to?<br><span class="hint">Hint: Checking work.</span></p>
+            <input type="radio" name="q18" value="a"> a) Control Quality<br>
+            <input type="radio" name="q18" value="b"> b) Plan Quality<br>
+            <input type="radio" name="q18" value="c"> c) Quality Assurance<br>
+            <input type="radio" name="q18" value="d"> d) Validate Scope<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q19 (Intermediate): Procurement</strong><br>Fixed-price contracts best when?<br><span class="hint">Hint: Clear scope.</span></p>
+            <input type="radio" name="q19" value="a"> a) Scope unclear<br>
+            <input type="radio" name="q19" value="b"> b) Risk high<br>
+            <input type="radio" name="q19" value="c"> c) Scope defined<br>
+            <input type="radio" name="q19" value="d"> d) Flexibility needed<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q20 (Intermediate): Team</strong><br>Low morale. Best action?<br><span class="hint">Hint: Boost spirits.</span></p>
+            <input type="radio" name="q20" value="a"> a) Recognize efforts<br>
+            <input type="radio" name="q20" value="b"> b) Increase work<br>
+            <input type="radio" name="q20" value="c"> c) Ignore it<br>
+            <input type="radio" name="q20" value="d"> d) Replace team<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q21 (Intermediate): Communication</strong><br>Channels for 6 people?<br><span class="hint">Hint: n(n-1)/2.</span></p>
+            <input type="radio" name="q21" value="a"> a) 10<br>
+            <input type="radio" name="q21" value="b"> b) 15<br>
+            <input type="radio" name="q21" value="c"> c) 20<br>
+            <input type="radio" name="q21" value="d"> d) 30<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q22 (Intermediate): Agile</strong><br>Daily Scrum timebox?<br><span class="hint">Hint: Quick meeting.</span></p>
+            <input type="radio" name="q22" value="a"> a) 30 min<br>
+            <input type="radio" name="q22" value="b"> b) 15 min<br>
+            <input type="radio" name="q22" value="c"> c) 1 hr<br>
+            <input type="radio" name="q22" value="d"> d) 10 min<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q23 (Intermediate): Cost</strong><br>Management reserves for?<br><span class="hint">Hint: Unexpected.</span></p>
+            <input type="radio" name="q23" value="a"> a) Unknown unknowns<br>
+            <input type="radio" name="q23" value="b"> b) Known unknowns<br>
+            <input type="radio" name="q23" value="c"> c) Scope changes<br>
+            <input type="radio" name="q23" value="d"> d) Quality issues<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q24 (Intermediate): Change</strong><br>Scope change approved. Next?<br><span class="hint">Hint: Update all.</span></p>
+            <input type="radio" name="q24" value="a"> a) Budget only<br>
+            <input type="radio" name="q24" value="b"> b) Team only<br>
+            <input type="radio" name="q24" value="c"> c) Project plan<br>
+            <input type="radio" name="q24" value="d"> d) No updates<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q25 (Intermediate): Risk</strong><br>Risk occurs. Best response?<br><span class="hint">Hint: Planned action.</span></p>
+            <input type="radio" name="q25" value="a"> a) Avoid<br>
+            <input type="radio" name="q25" value="b"> b) Transfer<br>
+            <input type="radio" name="q25" value="c"> c) Mitigate<br>
+            <input type="radio" name="q25" value="d"> d) Contingency<br>
         </div>
 
+        <!-- Hard Level (13 Questions) -->
         <div class="question">
-            <p><strong>Q3: Critical Path</strong><br>Activities: A(5d) → B(3d) → D(4d), A → C(6d) → D. A delay in A by 2 days. Impact on project duration?</p>
-            <input type="radio" name="q3" value="a"> a) No impact<br>
-            <input type="radio" name="q3" value="b"> b) 1 day increase<br>
-            <input type="radio" name="q3" value="c"> c) 2 day increase<br>
-            <input type="radio" name="q3" value="d"> d) 3 day increase<br>
+            <p><strong class="difficulty">Q26 (Hard): EVM</strong><br>BAC = $200K, PV = $80K, EV = $70K, AC = $90K. EAC?<br><span class="hint">Hint: AC + (BAC - EV). Abbr: BAC = Budget at Completion, PV = Planned Value.</span></p>
+            <input type="radio" name="q26" value="a"> a) $220K<br>
+            <input type="radio" name="q26" value="b"> b) $200K<br>
+            <input type="radio" name="q26" value="c"> c) $210K<br>
+            <input type="radio" name="q26" value="d"> d) $240K<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q27 (Hard): Critical Path</strong><br>A(4d) → B(6d) → D(5d), A → C(3d) → D. Delay A by 2d. Impact?<br><span class="hint">Hint: Longest path. Abbr: CPM = Critical Path Method.</span></p>
+            <input type="radio" name="q27" value="a"> a) No impact<br>
+            <input type="radio" name="q27" value="b"> b) 1 day<br>
+            <input type="radio" name="q27" value="c"> c) 2 days<br>
+            <input type="radio" name="q27" value="d"> d) 3 days<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q28 (Hard): Risk</strong><br>Risk: 20% chance, $50K; 60% chance, $10K. Priority?<br><span class="hint">Hint: EMV = Probability × Impact.</span></p>
+            <input type="radio" name="q28" value="a"> a) Impact<br>
+            <input type="radio" name="q28" value="b"> b) Probability<br>
+            <input type="radio" name="q28" value="c"> c) EMV<br>
+            <input type="radio" name="q28" value="d"> d) Sponsor choice<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q29 (Hard): Agile</strong><br>Team suggests shorter sprints after delay. Best action?<br><span class="hint">Hint: Sustainable pace.</span></p>
+            <input type="radio" name="q29" value="a"> a) Shorten sprints<br>
+            <input type="radio" name="q29" value="b"> b) Adjust scope<br>
+            <input type="radio" name="q29" value="c"> c) Crash schedule<br>
+            <input type="radio" name="q29" value="d"> d) Go predictive<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q30 (Hard): EVM</strong><br>CPI = 0.9, SPI = 1.1. Status?<br><span class="hint">Hint: CPI < 1, SPI > 1. Abbr: CPI = Cost Performance Index, SPI = Schedule Performance Index.</span></p>
+            <input type="radio" name="q30" value="a"> a) Over budget, ahead<br>
+            <input type="radio" name="q30" value="b"> b) Under budget, behind<br>
+            <input type="radio" name="q30" value="c"> c) On budget, on time<br>
+            <input type="radio" name="q30" value="d"> d) Over budget, behind<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q31 (Hard): Quality</strong><br>Tool for root cause?<br><span class="hint">Hint: Fishbone.</span></p>
+            <input type="radio" name="q31" value="a"> a) Control chart<br>
+            <input type="radio" name="q31" value="b"> b) Pareto chart<br>
+            <input type="radio" name="q31" value="c"> c) Cause-and-effect diagram<br>
+            <input type="radio" name="q31" value="d"> d) Histogram<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q32 (Hard): Procurement</strong><br>Vendor delays. Best action?<br><span class="hint">Hint: Assess impact.</span></p>
+            <input type="radio" name="q32" value="a"> a) Terminate<br>
+            <input type="radio" name="q32" value="b"> b) Ignore<br>
+            <input type="radio" name="q32" value="c"> c) Negotiate<br>
+            <input type="radio" name="q32" value="d"> d) Escalate legally<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q33 (Hard): Schedule</strong><br>Crashing increases?<br><span class="hint">Hint: More resources.</span></p>
+            <input type="radio" name="q33" value="a"> a) Cost<br>
+            <input type="radio" name="q33" value="b"> b) Slack<br>
+            <input type="radio" name="q33" value="c"> c) Duration<br>
+            <input type="radio" name="q33" value="d"> d) Quality<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q34 (Hard): Team</strong><br>Task conflict. Best resolution?<br><span class="hint">Hint: Team solution.</span></p>
+            <input type="radio" name="q34" value="a"> a) Collaborate<br>
+            <input type="radio" name="q34" value="b"> b) Force<br>
+            <input type="radio" name="q34" value="c"> c) Avoid<br>
+            <input type="radio" name="q34" value="d"> d) Compromise<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q35 (Hard): Stakeholder</strong><br>New stakeholder mid-project. Best action?<br><span class="hint">Hint: Update records.</span></p>
+            <input type="radio" name="q35" value="a"> a) Ignore<br>
+            <input type="radio" name="q35" value="b"> b) Update register<br>
+            <input type="radio" name="q35" value="c"> c) Escalate<br>
+            <input type="radio" name="q35" value="d"> d) Deny<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q36 (Hard): Agile</strong><br>Velocity drops. Best action?<br><span class="hint">Hint: Find cause.</span></p>
+            <input type="radio" name="q36" value="a"> a) Longer sprints<br>
+            <input type="radio" name="q36" value="b"> b) Add resources<br>
+            <input type="radio" name="q36" value="c"> c) Ignore<br>
+            <input type="radio" name="q36" value="d"> d) Investigate<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q37 (Hard): EVM</strong><br>EV = $300K, PV = $350K. SV?<br><span class="hint">Hint: EV - PV. Abbr: SV = Schedule Variance.</span></p>
+            <input type="radio" name="q37" value="a"> a) $50K<br>
+            <input type="radio" name="q37" value="b"> b) -$50K<br>
+            <input type="radio" name="q37" value="c"> c) $300K<br>
+            <input type="radio" name="q37" value="d"> d) -$350K<br>
+        </div>
+        <div class="question">
+            <p><strong class="difficulty">Q38 (Hard): Risk</strong><br>Risk response fails. Next?<br><span class="hint">Hint: Backup.</span></p>
+            <input type="radio" name="q38" value="a"> a) Ignore<br>
+            <input type="radio" name="q38" value="b"> b) Escalate<br>
+            <input type="radio" name="q38" value="c"> c) Contingency plan<br>
+            <input type="radio" name="q38" value="d"> d) Accept<br>
         </div>
 
+        <!-- Super Hard Level (12 Questions) -->
         <div class="question">
-            <p><strong>Q4: Stakeholder Management</strong><br>A stakeholder requests an unbudgeted scope change that delays the project. Best action?</p>
-            <input type="radio" name="q4" value="a"> a) Approve it immediately<br>
-            <input type="radio" name="q4" value="b"> b) Reject it outright<br>
-            <input type="radio" name="q4" value="c"> c) Submit a change request<br>
-            <input type="radio" name="q4" value="d"> d) Implement it quietly<br>
+            <p><strong class="difficulty">Q39 (Super Hard): EVM</strong><br>BAC = $800K, AC = $300K, EV = $250K. EAC if CPI continues?<br><span class="hint">Hint: EAC = BAC/CPI. Abbr: CPI = Cost Performance Index.</span></p>
+            <input type="radio" name="q39" value="a"> a) $960K<br>
+            <input type="radio" name="q39" value="b"> b) $850K<br>
+            <input type="radio" name="q39" value="c"> c) $800K<br>
+            <input type="radio" name="q39" value="d"> d) $900K<br>
         </div>
-
         <div class="question">
-            <p><strong>Q5: Agile</strong><br>In a hybrid project, a late design deliverable impacts sprint planning. Team suggests shortening 2-week sprints to 1 week. Best action?</p>
-            <input type="radio" name="q5" value="a"> a) Shorten sprints<br>
-            <input type="radio" name="q5" value="b"> b) Adjust sprint scope<br>
-            <input type="radio" name="q5" value="c"> c) Crash the design phase<br>
-            <input type="radio" name="q5" value="d"> d) Switch to predictive<br>
+            <p><strong class="difficulty">Q40 (Super Hard): Critical Path</strong><br>A(5d) → B(3d) → D(4d), A → C(6d) → D, B → E(2d). Delay B by 3d. Impact?<br><span class="hint">Hint: Multiple paths.</span></p>
+            <input type="radio" name="q40" value="a"> a) No impact<br>
+            <input type="radio" name="q40" value="b"> b) 1 day<br>
+            <input type="radio" name="q40" value="c"> c) 2 days<br>
+            <input type="radio" name="q40" value="d"> d) 3 days<br>
         </div>
-
         <div class="question">
-            <p><strong>Q6: EVM</strong><br>CPI = 0.9, SPI = 1.1. What’s the project status?</p>
-            <input type="radio" name="q6" value="a"> a) Over budget, ahead of schedule<br>
-            <input type="radio" name="q6" value="b"> b) Under budget, behind schedule<br>
-            <input type="radio" name="q6" value="c"> c) On budget, on schedule<br>
-            <input type="radio" name="q6" value="d"> d) Over budget, behind schedule<br>
+            <p><strong class="difficulty">Q41 (Super Hard): Risk</strong><br>Risk A: 10% chance, $100K; Risk B: 80% chance, $20K. EMV priority?<br><span class="hint">Hint: Calculate EMV.</span></p>
+            <input type="radio" name="q41" value="a"> a) Risk A<br>
+            <input type="radio" name="q41" value="b"> b) Risk B<br>
+            <input type="radio" name="q41" value="c"> c) Equal<br>
+            <input type="radio" name="q41" value="d"> d) Neither<br>
         </div>
-
         <div class="question">
-            <p><strong>Q7: Risk</strong><br>Contingency reserves are used for?</p>
-            <input type="radio" name="q7" value="a"> a) Known unknowns<br>
-            <input type="radio" name="q7" value="b"> b) Unknown unknowns<br>
-            <input type="radio" name="q7" value="c"> c) Scope creep<br>
-            <input type="radio" name="q7" value="d"> d) Gold plating<br>
+            <p><strong class="difficulty">Q42 (Super Hard): Agile</strong><br>Hybrid: Design late, agile team adjusts. Best action?<br><span class="hint">Hint: Agile flexibility.</span></p>
+            <input type="radio" name="q42" value="a"> a) Shorten sprints<br>
+            <input type="radio" name="q42" value="b"> b) Adjust scope<br>
+            <input type="radio" name="q42" value="c"> c) Crash design<br>
+            <input type="radio" name="q42" value="d"> d) Go predictive<br>
         </div>
-
         <div class="question">
-            <p><strong>Q8: Stakeholder</strong><br>A stakeholder resists a necessary change. Best approach?</p>
-            <input type="radio" name="q8" value="a"> a) Ignore them<br>
-            <input type="radio" name="q8" value="b"> b) Educate and engage them<br>
-            <input type="radio" name="q8" value="c"> c) Escalate to sponsor<br>
-            <input type="radio" name="q8" value="d"> d) Force the change<br>
+            <p><strong class="difficulty">Q43 (Super Hard): EVM</strong><br>BAC = $1M, EV = $400K, AC = $450K, PV = $500K. TCPI?<br><span class="hint">Hint: (BAC - EV)/(BAC - AC). Abbr: TCPI = To-Complete Performance Index.</span></p>
+            <input type="radio" name="q43" value="a"> a) 1.0<br>
+            <input type="radio" name="q43" value="b"> b) 1.2<br>
+            <input type="radio" name="q43" value="c"> c) 1.09<br>
+            <input type="radio" name="q43" value="d"> d) 0.9<br>
         </div>
-
         <div class="question">
-            <p><strong>Q9: Agile</strong><br>An agile team misses a sprint goal. Next step?</p>
-            <input type="radio" name="q9" value="a"> a) Extend the sprint<br>
-            <input type="radio" name="q9" value="b"> b) Replan the next sprint<br>
-            <input type="radio" name="q9" value="c"> c) Punish the team<br>
-            <input type="radio" name="q9" value="d"> d) Skip the sprint review<br>
+            <p><strong class="difficulty">Q44 (Super Hard): Procurement</strong><br>Vendor fails on cost-plus contract. Best action?<br><span class="hint">Hint: Buyer risk.</span></p>
+            <input type="radio" name="q44" value="a"> a) Terminate<br>
+            <input type="radio" name="q44" value="b"> b) Renegotiate<br>
+            <input type="radio" name="q44" value="c"> c) Accept delay<br>
+            <input type="radio" name="q44" value="d"> d) Switch contract<br>
         </div>
-
         <div class="question">
-            <p><strong>Q10: EVM</strong><br>BAC = $1,000,000, EV = $400,000, AC = $450,000. What’s the Cost Variance (CV)?</p>
-            <input type="radio" name="q10" value="a"> a) -$50,000<br>
-            <input type="radio" name="q10" value="b"> b) $50,000<br>
-            <input type="radio" name="q10" value="c"> c) -$450,000<br>
-            <input type="radio" name="q10" value="d"> d) $400,000<br>
+            <p><strong class="difficulty">Q45 (Super Hard): Stakeholder</strong><br>Sponsor demands unbudgeted feature, delays 3 months. Best action?<br><span class="hint">Hint: Formal process.</span></p>
+            <input type="radio" name="q45" value="a"> a) Approve<br>
+            <input type="radio" name="q45" value="b"> b) Reject<br>
+            <input type="radio" name="q45" value="c"> c) Change request<br>
+            <input type="radio" name="q45" value="d"> d) Implement quietly<br>
         </div>
-
         <div class="question">
-            <p><strong>Q11: Quality</strong><br>Which tool is best for identifying the root cause of defects?</p>
-            <input type="radio" name="q11" value="a"> a) Control chart<br>
-            <input type="radio" name="q11" value="b"> b) Pareto chart<br>
-            <input type="radio" name="q11" value="c"> c) Cause-and-effect diagram<br>
-            <input type="radio" name="q11" value="d"> d) Histogram<br>
+            <p><strong class="difficulty">Q46 (Super Hard): Quality</strong><br>Late defects rise. Best tool?<br><span class="hint">Hint: Prioritize.</span></p>
+            <input type="radio" name="q46" value="a"> a) Control chart<br>
+            <input type="radio" name="q46" value="b"> b) Pareto chart<br>
+            <input type="radio" name="q46" value="c"> c) Ishikawa diagram<br>
+            <input type="radio" name="q46" value="d"> d) Scatter diagram<br>
         </div>
-
         <div class="question">
-            <p><strong>Q12: Resources</strong><br>Resource leveling delays the project but balances demand. What’s the trade-off?</p>
-            <input type="radio" name="q12" value="a"> a) Increased cost<br>
-            <input type="radio" name="q12" value="b"> b) Extended schedule<br>
-            <input type="radio" name="q12" value="c"> c) Reduced quality<br>
-            <input type="radio" name="q12" value="d"> d) Higher risk<br>
+            <p><strong class="difficulty">Q47 (Super Hard): Schedule</strong><br>A(3d) → B(4d) → D(5d), A → C(6d) → D. C delayed by 2d. Impact?<br><span class="hint">Hint: Path shift.</span></p>
+            <input type="radio" name="q47" value="a"> a) No impact<br>
+            <input type="radio" name="q47" value="b"> b) 1 day<br>
+            <input type="radio" name="q47" value="c"> c) 2 days<br>
+            <input type="radio" name="q47" value="d"> d) 3 days<br>
         </div>
-
         <div class="question">
-            <p><strong>Q13: Team</strong><br>Two team members argue over a task. Best resolution?</p>
-            <input type="radio" name="q13" value="a"> a) Collaborate for a solution<br>
-            <input type="radio" name="q13" value="b"> b) Force a decision<br>
-            <input type="radio" name="q13" value="c"> c) Avoid the issue<br>
-            <input type="radio" name="q13" value="d"> d) Compromise quickly<br>
+            <p><strong class="difficulty">Q48 (Super Hard): Risk</strong><br>Risk triggers secondary risk. Best action?<br><span class="hint">Hint: Update plans.</span></p>
+            <input type="radio" name="q48" value="a"> a) Update risk register<br>
+            <input type="radio" name="q48" value="b"> b) Ignore secondary<br>
+            <input type="radio" name="q48" value="c"> c) Escalate<br>
+            <input type="radio" name="q48" value="d"> d) Avoid primary<br>
         </div>
-
         <div class="question">
-            <p><strong>Q14: Change</strong><br>Who approves a schedule change impacting the baseline?</p>
-            <input type="radio" name="q14" value="a"> a) Project manager<br>
-            <input type="radio" name="q14" value="b"> b) Team lead<br>
-            <input type="radio" name="q14" value="c"> c) Change Control Board (CCB)<br>
-            <input type="radio" name="q14" value="d"> d) Sponsor alone<br>
+            <p><strong class="difficulty">Q49 (Super Hard): EVM</strong><br>BAC = $500K, EV = $200K, AC = $250K. TCPI to meet BAC?<br><span class="hint">Hint: (BAC - EV)/(BAC - AC).</span></p>
+            <input type="radio" name="q49" value="a"> a) 1.0<br>
+            <input type="radio" name="q49" value="b"> b) 1.2<br>
+            <input type="radio" name="q49" value="c"> c) 1.33<br>
+            <input type="radio" name="q49" value="d"> d) 0.8<br>
         </div>
-
         <div class="question">
-            <p><strong>Q15: Procurement</strong><br>What’s the last step in closing a contract?</p>
-            <input type="radio" name="q15" value="a"> a) Final payment<br>
-            <input type="radio" name="q15" value="b"> b) Contract negotiation<br>
-            <input type="radio" name="q15" value="c"> c) Performance review<br>
-            <input type="radio" name="q15" value="d"> d) Verify deliverables acceptance<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q16: Agile</strong><br>When is backlog refinement typically done?</p>
-            <input type="radio" name="q16" value="a"> a) Sprint planning<br>
-            <input type="radio" name="q16" value="b"> b) Throughout the sprint<br>
-            <input type="radio" name="q16" value="c"> c) Sprint review<br>
-            <input type="radio" name="q16" value="d"> d) Daily scrum<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q17: Cost</strong><br>A cost overrun requires a baseline update. First step?</p>
-            <input type="radio" name="q17" value="a"> a) Submit a change request<br>
-            <input type="radio" name="q17" value="b"> b) Update the budget<br>
-            <input type="radio" name="q17" value="c"> c) Inform stakeholders<br>
-            <input type="radio" name="q17" value="d"> d) Recalculate EAC<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q18: Risk</strong><br>A high-probability risk occurs. Best response?</p>
-            <input type="radio" name="q18" value="a"> a) Avoid it<br>
-            <input type="radio" name="q18" value="b"> b) Transfer it<br>
-            <input type="radio" name="q18" value="c"> c) Mitigate it<br>
-            <input type="radio" name="q18" value="d"> d) Accept it<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q19: Stakeholder</strong><br>How do you update the stakeholder engagement plan?</p>
-            <input type="radio" name="q19" value="a"> a) During initiation<br>
-            <input type="radio" name="q19" value="b"> b) As stakeholder needs change<br>
-            <input type="radio" name="q19" value="c"> c) At project close<br>
-            <input type="radio" name="q19" value="d"> d) Only if directed by sponsor<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q20: Schedule</strong><br>To meet a deadline, you fast-track. What increases?</p>
-            <input type="radio" name="q20" value="a"> a) Risk<br>
-            <input type="radio" name="q20" value="b"> b) Quality<br>
-            <input type="radio" name="q20" value="c"> c) Slack<br>
-            <input type="radio" name="q20" value="d"> d) Duration<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q21: Quality</strong><br>Cost of conformance includes?</p>
-            <input type="radio" name="q21" value="a"> a) Rework costs<br>
-            <input type="radio" name="q21" value="b"> b) Warranty claims<br>
-            <input type="radio" name="q21" value="c"> c) Training and prevention<br>
-            <input type="radio" name="q21" value="d"> d) Failure costs<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q22: Agile</strong><br>What’s the primary measure of progress in agile?</p>
-            <input type="radio" name="q22" value="a"> a) Hours worked<br>
-            <input type="radio" name="q22" value="b"> b) Tasks completed<br>
-            <input type="radio" name="q22" value="c"> c) Budget spent<br>
-            <input type="radio" name="q22" value="d"> d) Working software<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q23: Communication</strong><br>How many channels for 8 stakeholders?</p>
-            <input type="radio" name="q23" value="a"> a) 16<br>
-            <input type="radio" name="q23" value="b"> b) 28<br>
-            <input type="radio" name="q23" value="c"> c) 36<br>
-            <input type="radio" name="q23" value="d"> d) 64<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q24: Risk</strong><br>A risk triggers a secondary risk. Best action?</p>
-            <input type="radio" name="q24" value="a"> a) Update risk register<br>
-            <input type="radio" name="q24" value="b"> b) Ignore the secondary risk<br>
-            <input type="radio" name="q24" value="c"> c) Escalate to sponsor<br>
-            <input type="radio" name="q24" value="d"> d) Avoid the primary risk<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q25: Procurement</strong><br>Which contract type shifts most risk to the seller?</p>
-            <input type="radio" name="q25" value="a"> a) Cost-plus<br>
-            <input type="radio" name="q25" value="b"> b) Time and materials<br>
-            <input type="radio" name="q25" value="c"> c) Fixed-price<br>
-            <input type="radio" name="q25" value="d"> d) Cost-reimbursable<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q26: Agile</strong><br>Daily scrum timebox is?</p>
-            <input type="radio" name="q26" value="a"> a) 30 minutes<br>
-            <input type="radio" name="q26" value="b"> b) 15 minutes<br>
-            <input type="radio" name="q26" value="c"> c) 1 hour<br>
-            <input type="radio" name="q26" value="d"> d) 10 minutes<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q27: EVM</strong><br>SPI = 0.8 means?</p>
-            <input type="radio" name="q27" value="a"> a) Over budget<br>
-            <input type="radio" name="q27" value="b"> b) Ahead of schedule<br>
-            <input type="radio" name="q27" value="c"> c) On schedule<br>
-            <input type="radio" name="q27" value="d"> d) Behind schedule<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q28: Resources</strong><br>Crashing a project increases?</p>
-            <input type="radio" name="q28" value="a"> a) Cost<br>
-            <input type="radio" name="q28" value="b"> b) Slack<br>
-            <input type="radio" name="q28" value="c"> c) Duration<br>
-            <input type="radio" name="q28" value="d"> d) Quality<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q29: Change</strong><br>A scope change is approved. Next step?</p>
-            <input type="radio" name="q29" value="a"> a) Update budget only<br>
-            <input type="radio" name="q29" value="b"> b) Inform team only<br>
-            <input type="radio" name="q29" value="c"> c) Update project management plan<br>
-            <input type="radio" name="q29" value="d"> d) Proceed without updates<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q30: Stakeholder</strong><br>A new stakeholder emerges mid-project. Best action?</p>
-            <input type="radio" name="q30" value="a"> a) Ignore them<br>
-            <input type="radio" name="q30" value="b"> b) Assess and update stakeholder register<br>
-            <input type="radio" name="q30" value="c"> c) Escalate to sponsor<br>
-            <input type="radio" name="q30" value="d"> d) Deny their involvement<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q31: Quality</strong><br>Inspection finds defects. This is part of?</p>
-            <input type="radio" name="q31" value="a"> a) Control Quality<br>
-            <input type="radio" name="q31" value="b"> b) Plan Quality<br>
-            <input type="radio" name="q31" value="c"> c) Assurance Quality<br>
-            <input type="radio" name="q31" value="d"> d) Validate Scope<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q32: Risk</strong><br>A risk response fails. Next step?</p>
-            <input type="radio" name="q32" value="a"> a) Ignore it<br>
-            <input type="radio" name="q32" value="b"> b) Escalate it<br>
-            <input type="radio" name="q32" value="c"> c) Implement a contingency plan<br>
-            <input type="radio" name="q32" value="d"> d) Accept the risk<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q33: Agile</strong><br>Sprint review includes?</p>
-            <input type="radio" name="q33" value="a"> a) Planning next sprint<br>
-            <input type="radio" name="q33" value="b"> b) Demo and feedback<br>
-            <input type="radio" name="q33" value="c"> c) Task assignment<br>
-            <input type="radio" name="q33" value="d"> d) Risk analysis<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q34: EVM</strong><br>EV = $300,000, PV = $350,000. SV?</p>
-            <input type="radio" name="q34" value="a"> a) $50,000<br>
-            <input type="radio" name="q34" value="b"> b) -$50,000<br>
-            <input type="radio" name="q34" value="c"> c) $300,000<br>
-            <input type="radio" name="q34" value="d"> d) -$350,000<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q35: Team</strong><br>Team morale is low. Best action?</p>
-            <input type="radio" name="q35" value="a"> a) Recognize achievements<br>
-            <input type="radio" name="q35" value="b"> b) Increase workload<br>
-            <input type="radio" name="q35" value="c"> c) Ignore it<br>
-            <input type="radio" name="q35" value="d"> d) Replace team members<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q36: Procurement</strong><br>A vendor delays delivery. Best action?</p>
-            <input type="radio" name="q36" value="a"> a) Terminate contract<br>
-            <input type="radio" name="q36" value="b"> b) Ignore it<br>
-            <input type="radio" name="q36" value="c"> c) Assess impact and negotiate<br>
-            <input type="radio" name="q36" value="d"> d) Escalate to legal<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q37: Schedule</strong><br>Total float is zero on?</p>
-            <input type="radio" name="q37" value="a"> a) Non-critical path<br>
-            <input type="radio" name="q37" value="b"> b) Critical path<br>
-            <input type="radio" name="q37" value="c"> c) All activities<br>
-            <input type="radio" name="q37" value="d"> d) Slack activities<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q38: Cost</strong><br>Management reserve is for?</p>
-            <input type="radio" name="q38" value="a"> a) Unknown unknowns<br>
-            <input type="radio" name="q38" value="b"> b) Known unknowns<br>
-            <input type="radio" name="q38" value="c"> c) Scope changes<br>
-            <input type="radio" name="q38" value="d"> d) Quality issues<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q39: Change</strong><br>A change affects the critical path. Next step?</p>
-            <input type="radio" name="q39" value="a"> a) Implement immediately<br>
-            <input type="radio" name="q39" value="b"> b) Reject it<br>
-            <input type="radio" name="q39" value="c"> c) Analyze impact via change control<br>
-            <input type="radio" name="q39" value="d"> d) Inform team only<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q40: Agile</strong><br>Velocity drops suddenly. Best action?</p>
-            <input type="radio" name="q40" value="a"> a) Increase sprint length<br>
-            <input type="radio" name="q40" value="b"> b) Add resources<br>
-            <input type="radio" name="q40" value="c"> c) Ignore it<br>
-            <input type="radio" name="q40" value="d"> d) Investigate cause<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q41: Stakeholder</strong><br>A stakeholder is unaware of progress. Best action?</p>
-            <input type="radio" name="q41" value="a"> a) Escalate to sponsor<br>
-            <input type="radio" name="q41" value="b"> b) Update communication plan<br>
-            <input type="radio" name="q41" value="c"> c) Ignore them<br>
-            <input type="radio" name="q41" value="d"> d) Reduce their involvement<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q42: Risk</strong><br>A risk probability increases. Best action?</p>
-            <input type="radio" name="q42" value="a"> a) Reassess and update response<br>
-            <input type="radio" name="q42" value="b"> b) Accept it<br>
-            <input type="radio" name="q42" value="c"> c) Ignore it<br>
-            <input type="radio" name="q42" value="d"> d) Transfer it<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q43: Quality</strong><br>Quality audits are part of?</p>
-            <input type="radio" name="q43" value="a"> a) Control Quality<br>
-            <input type="radio" name="q43" value="b"> b) Validate Scope<br>
-            <input type="radio" name="q43" value="c"> c) Quality Assurance<br>
-            <input type="radio" name="q43" value="d"> d) Plan Quality<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q44: EVM</strong><br>CPI = 1.2, SPI = 0.9. Project status?</p>
-            <input type="radio" name="q44" value="a"> a) Over budget, ahead<br>
-            <input type="radio" name="q44" value="b"> b) Under budget, ahead<br>
-            <input type="radio" name="q44" value="c"> c) Over budget, behind<br>
-            <input type="radio" name="q44" value="d"> d) Under budget, behind<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q45: Agile</strong><br>Sprint goal isn’t met due to scope creep. Best action?</p>
-            <input type="radio" name="q45" value="a"> a) Extend sprint<br>
-            <input type="radio" name="q45" value="b"> b) Address in retrospective<br>
-            <input type="radio" name="q45" value="c"> c) Add resources<br>
-            <input type="radio" name="q45" value="d"> d) Ignore it<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q46: Schedule</strong><br>Crashing reduces duration but increases?</p>
-            <input type="radio" name="q46" value="a"> a) Cost<br>
-            <input type="radio" name="q46" value="b"> b) Slack<br>
-            <input type="radio" name="q46" value="c"> c) Quality<br>
-            <input type="radio" name="q46" value="d"> d) Float<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q47: Procurement</strong><br>A fixed-price contract is best when?</p>
-            <input type="radio" name="q47" value="a"> a) Scope is unclear<br>
-            <input type="radio" name="q47" value="b"> b) Risk is high<br>
-            <input type="radio" name="q47" value="c"> c) Requirements are well-defined<br>
-            <input type="radio" name="q47" value="d"> d) Flexibility is needed<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q48: Team</strong><br>Team lacks skills for a task. Best action?</p>
-            <input type="radio" name="q48" value="a"> a) Outsource it<br>
-            <input type="radio" name="q48" value="b"> b) Train the team<br>
-            <input type="radio" name="q48" value="c"> c) Replace the team<br>
-            <input type="radio" name="q48" value="d"> d) Ignore the gap<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q49: Risk</strong><br>A low-probability, high-impact risk occurs. Best response?</p>
-            <input type="radio" name="q49" value="a"> a) Avoid it<br>
-            <input type="radio" name="q49" value="b"> b) Transfer it<br>
-            <input type="radio" name="q49" value="c"> c) Mitigate it<br>
-            <input type="radio" name="q49" value="d"> d) Use contingency plan<br>
-        </div>
-
-        <div class="question">
-            <p><strong>Q50: EVM</strong><br>BAC = $800,000, AC = $300,000, EV = $250,000. EAC if CPI continues?</p>
-            <input type="radio" name="q50" value="a"> a) $960,000<br>
-            <input type="radio" name="q50" value="b"> b) $850,000<br>
-            <input type="radio" name="q50" value="c"> c) $800,000<br>
-            <input type="radio" name="q50" value="d"> d) $900,000<br>
+            <p><strong class="difficulty">Q50 (Super Hard): Agile</strong><br>Velocity drops 50% mid-project. Root cause?<br><span class="hint">Hint: Investigate team.</span></p>
+            <input type="radio" name="q50" value="a"> a) Scope creep<br>
+            <input type="radio" name="q50" value="b"> b) Team burnout<br>
+            <input type="radio" name="q50" value="c"> c) Poor planning<br>
+            <input type="radio" name="q50" value="d"> d) All of the above<br>
         </div>
 
         <button type="submit">Submit Answers</button>
@@ -423,11 +383,11 @@
         function validateAnswers(event) {
             event.preventDefault();
             const answers = {
-                q1: "c", q2: "a", q3: "c", q4: "c", q5: "b", q6: "a", q7: "a", q8: "b", q9: "b", q10: "a",
-                q11: "c", q12: "b", q13: "a", q14: "c", q15: "d", q16: "b", q17: "a", q18: "c", q19: "b", q20: "a",
-                q21: "c", q22: "d", q23: "b", q24: "a", q25: "c", q26: "b", q27: "d", q28: "a", q29: "c", q30: "b",
-                q31: "a", q32: "c", q33: "b", q34: "b", q35: "a", q36: "c", q37: "b", q38: "a", q39: "c", q40: "d",
-                q41: "b", q42: "a", q43: "c", q44: "d", q45: "b", q46: "a", q47: "c", q48: "b", q49: "d", q50: "a"
+                q1: "b", q2: "b", q3: "c", q4: "b", q5: "b", q6: "c", q7: "b", q8: "b", q9: "b", q10: "b",
+                q11: "b", q12: "b", q13: "c", q14: "b", q15: "b", q16: "b", q17: "a", q18: "a", q19: "c", q20: "a",
+                q21: "b", q22: "b", q23: "a", q24: "c", q25: "d", q26: "a", q27: "c", q28: "c", q29: "b", q30: "a",
+                q31: "c", q32: "c", q33: "a", q34: "a", q35: "b", q36: "d", q37: "b", q38: "c", q39: "a", q40: "c",
+                q41: "b", q42: "b", q43: "c", q44: "b", q45: "c", q46: "b", q47: "c", q48: "a", q49: "c", q50: "d"
             };
             let score = 0;
             let total = 50;
