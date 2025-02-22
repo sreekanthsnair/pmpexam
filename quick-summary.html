@@ -3,104 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PMP Quick Summary 2025</title>
+    <title>PMP Exam Focus 2025</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.5; }
         h1 { color: #2c3e50; }
-        details { margin-bottom: 10px; border: 1px solid #ddd; padding: 10px; border-radius: 5px; }
+        details { margin-bottom: 15px; border: 1px solid #ddd; padding: 10px; border-radius: 5px; }
         summary { font-weight: bold; cursor: pointer; color: #2980b9; }
         ul { margin: 10px 0 0 20px; }
         strong { color: #e74c3c; }
-        .example { font-style: italic; color: #7f8c8d; }
+        .tip { font-style: italic; color: #27ae60; }
+        .formula { background: #f1f1f1; padding: 5px; display: inline-block; }
     </style>
 </head>
 <body>
-    <h1>PMP Quick Summary 2025: Fast-Track Reference</h1>
-    <p>This summary covers key PMP topics for the 2025 exam, based on PMI's Exam Content Outline (ECO). Focus: People (42%), Process (50%), Business Environment (8%). Includes predictive, agile, and hybrid essentials.</p>
+    <h1>PMP Exam Focus 2025: Pass Essentials</h1>
+    <p>Targets 2025 PMP exam (180 questions, 175 scored). Focus: <strong>People (42%, ~75 Qs)</strong>, <strong>Process (50%, ~90 Qs)</strong>, <strong>Business Environment (8%, ~15 Qs)</strong>. 50% agile/hybrid. Key topics only.</p>
 
     <!-- People Domain -->
-    <details>
-        <summary>1. People Domain (42% of Exam)</summary>
-        <p><strong>Focus:</strong> Leadership, team management, stakeholder engagement.</p>
+    <details open>
+        <summary>1. People (42% - Team, Stakeholders, Leadership)</summary>
+        <p><strong>Must-Know:</strong> Conflict, team performance, stakeholder mgmt - situational Qs dominate.</p>
         <ul>
-            <li><strong>Leadership Styles:</strong> Directive (new teams), Servant (agile), Transformational (change-driven).</li>
-            <li><strong>Conflict Resolution:</strong> Collaborate (win-win), Compromise (give-and-take), Avoid (delay), Force (last resort).</li>
-            <li><strong>Team Building:</strong> Tuckman’s stages - Forming, Storming, Norming, Performing, Adjourning.</li>
-            <li><strong>Motivation:</strong> Recognize efforts, provide support (Maslow, Herzberg).</li>
-            <li><strong>Stakeholder Engagement:</strong> Identify, analyze (power/interest grid), tailor communication.</li>
-            <li><strong>Agile Team:</strong> Self-organizing, empowered, cross-functional.</li>
-            <li><strong>Key Tools:</strong> RACI chart (roles), comm plan, stakeholder register.</li>
+            <li><strong>Conflict Resolution:</strong> 
+                <ul>
+                    <li>Collaborate: Best, win-win, team solves together.</li>
+                    <li>Compromise: Quick fix, both give up something.</li>
+                    <li>Avoid: Delay non-critical issues.</li>
+                    <li>Force: Last resort, PM decides.</li>
+                </ul>
+                <span class="tip">Exam Tip: Pick collaboration unless time-critical.</span>
+            </li>
+            <li><strong>Team Performance:</strong> 
+                <ul>
+                    <li>First Step: Discuss issues, coach (not fire/escalate).</li>
+                    <li>Motivation: Recognize effort (not just pay).</li>
+                    <li>Agile: Self-organizing, no micromanaging.</li>
+                </ul>
+                <span class="tip">Exam Tip: Support > punish.</span>
+            </li>
+            <li><strong>Stakeholder Engagement:</strong> 
+                <ul>
+                    <li>Identify: Use register, power/interest grid.</li>
+                    <li>Engage: Tailor comm (don’t ignore/escalate first).</li>
+                    <li>Change Requests: Explain process, don’t bypass.</li>
+                </ul>
+                <span class="tip">Exam Tip: Qs test proactive comm.</span>
+            </li>
+            <li><strong>Tools:</strong> RACI (Responsible, Accountable, Consulted, Informed), comm plan.</li>
         </ul>
-        <p class="example">Example: Team misses deadlines - First discuss performance, then train (ECO Task 5).</p>
+        <p><strong>Key Q Example:</strong> Team argues over tasks - Facilitate discussion, not escalate.</p>
     </details>
 
     <!-- Process Domain -->
-    <details>
-        <summary>2. Process Domain (50% of Exam)</summary>
-        <p><strong>Focus:</strong> Project execution, planning, monitoring, control.</p>
+    <details open>
+        <summary>2. Process (50% - Execution, Metrics, Risks)</summary>
+        <p><strong>Must-Know:</strong> EVM, critical path, risk, agile, change - heaviest exam weight.</p>
         <ul>
-            <li><strong>Process Groups:</strong> Initiating, Planning, Executing, Monitoring & Controlling, Closing (5 total).</li>
-            <li><strong>Scope:</strong> Define via charter, WBS (work breakdown structure), control scope creep.</li>
-            <li><strong>Schedule:</strong> Critical Path Method (CPM) - longest path, zero float. Crashing (add resources, ↑ cost), Fast-tracking (overlap tasks, ↑ risk).</li>
-            <li><strong>Cost:</strong> Budget = cost baseline + reserves (contingency: known unknowns, management: unknown unknowns).</li>
-            <li><strong>EVM Formulas:</strong>
+            <li><strong>EVM (Earned Value Management):</strong> 
                 <ul>
-                    <li>CV = EV - AC (Cost Variance, + = under budget)</li>
-                    <li>SV = EV - PV (Schedule Variance, + = ahead)</li>
-                    <li>CPI = EV / AC (Cost Performance Index, >1 = good)</li>
-                    <li>SPI = EV / PV (Schedule Performance Index, >1 = good)</li>
-                    <li>EAC = BAC / CPI (if current trend continues)</li>
-                    <li>TCPI = (BAC - EV) / (BAC - AC) (to complete on budget)</li>
+                    <li><span class="formula">CV = EV - AC</span>: + = under budget, - = over.</li>
+                    <li><span class="formula">SV = EV - PV</span>: + = ahead, - = behind.</li>
+                    <li><span class="formula">CPI = EV / AC</span>: >1 = good cost, <1 = overrun.</li>
+                    <li><span class="formula">SPI = EV / PV</span>: >1 = ahead, <1 = behind.</li>
+                    <li><span class="formula">EAC = BAC / CPI</span>: Forecast if trend continues.</li>
+                    <li><span class="formula">TCPI = (BAC - EV) / (BAC - AC)</span>: Efficiency to finish on budget.</li>
                 </ul>
+                <span class="tip">Exam Tip: 5-10 Qs, memorize formulas. Ex: EV = $200K, AC = $250K, CPI = 0.8.</span>
             </li>
-            <li><strong>Risk:</strong> Identify (register), analyze (probability × impact = EMV), respond (avoid, mitigate, transfer, accept).</li>
-            <li><strong>Quality:</strong> QA (process improvement), QC (inspect deliverables). Tools: Pareto (80/20), Ishikawa (cause-effect), Control Charts (trends).</li>
-            <li><strong>Procurement:</strong> Fixed-price (clear scope, seller risk), Cost-plus (flexible, buyer risk), T&M (moderate risk).</li>
-            <li><strong>Change Control:</strong> Submit change request → CCB (Change Control Board) → update plans.</li>
-            <li><strong>Agile Process:</strong> Sprints (1-4 weeks), Daily Scrum (15 min), backlog prioritized by Product Owner, retrospectives for improvement.</li>
+            <li><strong>Critical Path:</strong> 
+                <ul>
+                    <li>Longest path, zero float - delays here delay project.</li>
+                    <li>Crash: Add resources, ↑ cost. Fast-track: Overlap, ↑ risk.</li>
+                </ul>
+                <span class="tip">Exam Tip: Qs give network diagram, calculate path (e.g., A-B-D = 12d).</span>
+            </li>
+            <li><strong>Risk Management:</strong> 
+                <ul>
+                    <li>Steps: Identify (register), Analyze (P × I = EMV), Respond (avoid, mitigate, transfer, accept).</li>
+                    <li>Reserves: Contingency (known unknowns), Management (unknown unknowns).</li>
+                    <li>Risk occurs: Use planned response first.</li>
+                </ul>
+                <span class="tip">Exam Tip: EMV Qs (e.g., 30% × $50K = $15K).</span>
+            </li>
+            <li><strong>Agile/Hybrid:</strong> 
+                <ul>
+                    <li>Sprint: 1-4 weeks, goal fixed, changes to backlog.</li>
+                    <li>Roles: Product Owner (backlog), Scrum Master (process), Team (delivers).</li>
+                    <li>Events: Planning, Daily Scrum (15 min), Review, Retrospective.</li>
+                    <li>Hybrid: Predictive (scope fixed) + Agile (iterative).</li>
+                </ul>
+                <span class="tip">Exam Tip: 50% of Qs, defer mid-sprint changes.</span>
+            </li>
+            <li><strong>Change Control:</strong> 
+                <ul>
+                    <li>Process: Request → CCB → Update plans (schedule, scope, etc.).</li>
+                    <li>No shortcuts, even for sponsors.</li>
+                </ul>
+                <span class="tip">Exam Tip: Always pick formal process.</span>
+            </li>
+            <li><strong>Quality:</strong> 
+                <ul>
+                    <li>QA: Improve process. QC: Inspect deliverables.</li>
+                    <li>Tools: Pareto (80/20), Ishikawa (causes), Control Chart (trends).</li>
+                </ul>
+                <span class="tip">Exam Tip: Match tool to purpose.</span>
+            </li>
+            <li><strong>Procurement:</strong> 
+                <ul>
+                    <li>Fixed-price: Clear scope, seller risk.</li>
+                    <li>Cost-plus: Flexible, buyer risk.</li>
+                    <li>T&M: Moderate risk, time-based.</li>
+                </ul>
+                <span class="tip">Exam Tip: Qs test risk ownership.</span>
+            </li>
         </ul>
-        <p class="example">Example: EV = $200K, AC = $250K, CPI = 0.8 (over budget), ECO Task 9.</p>
+        <p><strong>Key Q Example:</strong> Risk occurs - Implement response, not notify first.</p>
     </details>
 
     <!-- Business Environment Domain -->
     <details>
-        <summary>3. Business Environment Domain (8% of Exam)</summary>
-        <p><strong>Focus:</strong> Strategic alignment, organizational impact.</p>
+        <summary>3. Business Environment (8% - Strategy, Value)</summary>
+        <p><strong>Must-Know:</strong> Alignment, compliance - fewer Qs but critical.</p>
         <ul>
-            <li><strong>Alignment:</strong> Ensure project supports org goals - assess changes if strategy shifts.</li>
-            <li><strong>Benefits:</strong> Define value (ROI, customer satisfaction), track realization post-project.</li>
-            <li><strong>Compliance:</strong> Follow legal, ethical standards (PMI Code of Ethics).</li>
-            <li><strong>External Factors:</strong> Market shifts, regulations - adapt via change requests.</li>
-            <li><strong>Key Tools:</strong> Business case, benefits management plan.</li>
+            <li><strong>Strategic Alignment:</strong> 
+                <ul>
+                    <li>Ensure project fits org goals.</li>
+                    <li>Shift happens: Assess impact, submit change (not terminate first).</li>
+                </ul>
+                <span class="tip">Exam Tip: Qs test proactive adjustment.</span>
+            </li>
+            <li><strong>Benefits:</strong> 
+                <ul>
+                    <li>Define value (e.g., ROI), track post-project.</li>
+                    <li>Business case justifies project.</li>
+                </ul>
+            </li>
+            <li><strong>Compliance:</strong> 
+                <ul>
+                    <li>Legal/ethical rules (PMI Code: fairness, honesty).</li>
+                    <li>Qs test ethics (e.g., no bribes).</li>
+                </ul>
+                <span class="tip">Exam Tip: Always choose ethical option.</span>
+            </li>
         </ul>
-        <p class="example">Example: Market changes project need - Assess impact, submit change (ECO Task 1).</p>
+        <p><strong>Key Q Example:</strong> Market shifts - Assess and change, not continue.</p>
     </details>
 
-    <!-- Agile and Hybrid Essentials -->
-    <details>
-        <summary>4. Agile and Hybrid Essentials (50% of 2025 Exam)</summary>
-        <p><strong>Focus:</strong> Iterative delivery, adaptability.</p>
+    <!-- Exam Must-Knows -->
+    <details open>
+        <summary>4. Exam Must-Knows</summary>
+        <p><strong>Critical for Passing:</strong> Focus here to nail 2025 PMP.</p>
         <ul>
-            <li><strong>Agile Principles:</strong> Working product > documentation, customer collaboration, respond to change (Agile Manifesto).</li>
-            <li><strong>Roles:</strong> Product Owner (backlog), Scrum Master (process), Team (self-organizing).</li>
-            <li><strong>Events:</strong> Sprint Planning, Daily Scrum, Sprint Review (demo), Retrospective (improve).</li>
-            <li><strong>Artifacts:</strong> Product Backlog, Sprint Backlog, Increment.</li>
-            <li><strong>Velocity:</strong> Measure of work completed per sprint - adjust scope, not time.</li>
-            <li><strong>Hybrid:</strong> Predictive (fixed scope) + Agile (iterative delivery). Example: Design predictive, dev agile.</li>
-            <li><strong>Key Tools:</strong> Kanban board, burndown chart.</li>
+            <li><strong>Formulas:</strong> EVM (CV, SV, CPI, SPI, EAC, TCPI), comm channels: n(n-1)/2.</li>
+            <li><strong>Agile:</strong> 50% of exam - sprint rules, roles, defer changes.</li>
+            <li><strong>Risk:</strong> EMV, responses, reserves - situational Qs.</li>
+            <li><strong>Change:</strong> Always formal process, no shortcuts.</li>
+            <li><strong>Tools:</strong> Pareto (prioritize), Ishikawa (causes), Gantt (schedule).</li>
+            <li><strong>Ethics:</strong> PMI Code - fairness, honesty, responsibility.</li>
+            <li><strong>Qs Breakdown:</strong> Situational (60-70%), formulas (5-10%), tools (10-15%), ethics (5-10%).</li>
+            <li><strong>Tip:</strong> Eliminate distractors - pick PMI’s process over gut.</li>
         </ul>
-        <p class="example">Example: Mid-sprint change? Defer to backlog, protect sprint goal.</p>
-    </details>
-
-    <!-- Quick Tips -->
-    <details>
-        <summary>5. Quick Tips for 2025 PMP Exam</summary>
-        <ul>
-            <li><strong>Question Types:</strong> Situational (60-70%), formulas (5-10%), tools (10-15%), ethics (5-10%).</li>
-            <li><strong>Strategy:</strong> Eliminate distractors, think PMI way (process over instinct).</li>
-            <li><strong>Focus Areas:</strong> EVM, risk, agile, stakeholder mgmt, change control.</li>
-            <li><strong>Practice:</strong> Use simulators, review ECO tasks daily.</li>
-        </ul>
+        <p><strong>Study Plan:</strong> 1 hr/day - 20 min formulas, 20 min agile, 20 min risk/change.</p>
     </details>
 </body>
 </html>
